@@ -5,7 +5,7 @@ var mongodb = require('mongodb');
 
 //var dbConn = mongodb.MongoClient.connect('mongodb://localhost:27017');
 var dbConn = mongodb.MongoClient.connect('mongodb://joohoyun:hello900@ds135963.mlab.com:35963/bookstore');
-
+//setup express here.. 
 var app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
